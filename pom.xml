@@ -106,7 +106,7 @@
         <netty.tcnative.version>2.0.53.Final</netty.tcnative.version>
         <bcpkix-jdk15on.version>1.69</bcpkix-jdk15on.version>
         <fastjson.version>1.2.83</fastjson.version>
-        <javassist.version>3.20.0-GA</javassist.version>
+        <javassist.version>3.29.2-GA</javassist.version>
         <jna.version>4.2.2</jna.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-io.version>2.7</commons-io.version>
@@ -223,8 +223,8 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <banCircularDependencies />
-                        <dependencyConvergence />
+                        <banCircularDependencies/>
+                        <dependencyConvergence/>
                     </rules>
                     <fail>true</fail>
                 </configuration>
