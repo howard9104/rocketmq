@@ -143,7 +143,7 @@
         <assertj-core.version>3.22.0</assertj-core.version>
         <mockito-core.version>3.10.0</mockito-core.version>
         <awaitility.version>4.1.0</awaitility.version>
-        <truth.version>0.30</truth.version>
+        <truth.version>1.4.2</truth.version>
 
         <!-- Build plugin dependencies -->
         <versions-maven-plugin.version>2.2</versions-maven-plugin.version>
@@ -223,8 +223,8 @@
                 </executions>
                 <configuration>
                     <rules>
-                        <banCircularDependencies />
-                        <dependencyConvergence />
+                        <banCircularDependencies/>
+                        <dependencyConvergence/>
                     </rules>
                     <fail>true</fail>
                 </configuration>
